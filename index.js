@@ -25,11 +25,11 @@ document.querySelectorAll(".ver-pass").forEach(img => {
     img.addEventListener("click", () => {
         if (img.classList.toggle("invisible")){
             //Hace invisible el input
-            img.setAttribute("src", "/resources/ojos-cruzados.png")
+            img.setAttribute("src", "resources/ojos-cruzados.png")
             img.previousElementSibling.setAttribute("type", "password")
         } else {
             //Hace visible el input
-            img.setAttribute("src", "/resources/ojo.png")
+            img.setAttribute("src", "resources/ojo.png")
             img.previousElementSibling.setAttribute("type", "text")
         }
     })
